@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+ 
+<Configuration>
+	<DatabaseConfig>
+		<database>stock_database</database>
+		<pricetable>price</pricetable>
+		<stocktable>stock</stocktable>
+		<hostname>127.0.0.1</hostname>
+		<username></username>
+		<password></password>
+	</DatabaseConfig>
+</Configuration>

@@ -1,0 +1,9 @@
+-Adjust include directories to be more publiclly usable.
+-Set up auto tools.
+-Provide more flexiablity by specifiying data source via configuration file.
+-Generate warnings for out of date tickers.
+-Create database independent interfaces for storing stock data and retreving
+stock data.
+-Clean directory structure.
+-Create approriate post build events to move required dependencies.
+-Create script to create database table with user specified values

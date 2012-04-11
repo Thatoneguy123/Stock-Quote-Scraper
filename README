@@ -1,0 +1,23 @@
+Application written in C++ which reads stock tickers from a database and 
+then retrives various data points by utilizing a google finance api. 
+
+
+Installtion and build procedures...
+
+There will most likely be build problems.. Makefile is generic file carried
+over from a former netbeans project. A better Makefile via autotools is coming
+very soon..
+
+>>> DATABASES Must be built and initialized first!! <<<
+
+Currently only MySQL is supported.
+
+1. Open the createTables.sql file and insert custom values for the fields
+   <name> and <password>
+2. Run the createTables.sql file to create the needed tables
+3. Open the configuration file and insert the corresponding password and name
+   values which you have just created.
+4. Insert the tickers for which you wish to retrieve data into the the stock
+   table.
+   - I.E. insert into stock values(1,'GE','General Electric Corporation')
+5. Build and run application.
