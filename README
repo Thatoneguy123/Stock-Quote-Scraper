@@ -1,6 +1,10 @@
 Application written in C++ which reads stock tickers from a database and 
 then retrives various data points by utilizing a google finance api. 
 
+Dependencies..
+-libxml2
+-cURL
+-mysql++
 
 Installtion and build procedures...
 
